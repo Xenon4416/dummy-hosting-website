@@ -6,15 +6,25 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: fixed url("../public/837049.jpg");
+  background-size: cover;
 }
 
 .main {
   padding: 5rem 0;
   flex: 1;
   display: flex;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.float {
+  padding: 0.5em 0;
+  border-radius: 0.5em;
+  background: rgba(87, 135, 89, 0.713);
+  box-shadow: 1em 1em .5em -.5em rgba(17, 56, 1, 0.782);
 }
 
 .footer {
@@ -61,11 +71,11 @@
 }
 
 .code {
-  background: #fafafa;
+  background: #2277019c;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+  font-family: Comic Sans MS,  Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
@@ -93,7 +103,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  color: #05264b;
   border-color: #0070f3;
 }
 
